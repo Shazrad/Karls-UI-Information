@@ -1,0 +1,165 @@
+{
+    ["general"] = {
+        ["normTex"] = "Runes",
+        ["glossTex"] = "Runes",
+        ["minimapbar"] = {
+            ["skinStyle"] = "VERTICAL",
+            ["skinButtons"] = false,
+        },
+        ["chatBubbleFont"] = "Bui Prototype",
+        ["namefont"] = "Bui Prototype",
+        ["dmgfont"] = "Bui Prototype",
+    },
+    ["bags"] = {
+        ["enable"] = false,
+    },
+    ["skins"] = {
+        ["blizzard"] = {
+            ["alertframes"] = true,
+            ["questChoice"] = true,
+        },
+    },
+    ["theme"] = "class",
+    ["install_complete"] = "10.52",
+    ["dashboards"] = {
+        ["tokens"] = {
+            ["chooseTokens"] = {
+                [416] = false,
+                [828] = false,
+                [515] = false,
+                [361] = false,
+                [1101] = false,
+                [1357] = false,
+                [1172] = false,
+                [789] = false,
+                [980] = false,
+                [1129] = false,
+                [738] = false,
+                [614] = false,
+                [81] = false,
+                [752] = false,
+                [754] = false,
+                [697] = false,
+                [385] = false,
+                [391] = false,
+                [776] = false,
+                [1355] = false,
+                [395] = false,
+                [1174] = false,
+                [397] = false,
+                [398] = false,
+                [399] = false,
+                [400] = false,
+                [401] = false,
+                [402] = false,
+                [676] = false,
+                [615] = false,
+                [777] = false,
+                [1191] = false,
+                [1154] = false,
+                [1356] = false,
+                [61] = false,
+                [1173] = false,
+                [944] = false,
+                [677] = false,
+                [241] = false,
+                [1299] = false,
+            },
+        },
+    },
+    ["tooltip"] = {
+        ["enable"] = false,
+    },
+    ["benikui"] = {
+        ["install_complete"] = "3.25",
+    },
+    ["equipment"] = {
+        ["durability"] = {
+            ["enable"] = false,
+        },
+        ["itemlevel"] = {
+            ["enable"] = false,
+        },
+    },
+    ["CustomTweaks"] = {
+        ["RaidControl"] = true,
+    },
+    ["sle"] = {
+        ["module"] = {
+            ["shadows"] = {
+                ["focustarget"] = true,
+                ["targettarget"] = true,
+                ["actionbars"] = {
+                    ["bar3"] = true,
+                    ["bar6"] = true,
+                    ["bar2buttons"] = true,
+                    ["bar3buttons"] = true,
+                    ["microbar"] = true,
+                    ["bar1buttons"] = true,
+                    ["bar2"] = true,
+                    ["bar1"] = true,
+                    ["bar5"] = true,
+                    ["petbarbuttons"] = true,
+                    ["microbarbuttons"] = true,
+                    ["bar6buttons"] = true,
+                    ["stancebar"] = true,
+                    ["stancebarbuttons"] = true,
+                    ["bar5buttons"] = true,
+                    ["petbar"] = true,
+                    ["bar4buttons"] = true,
+                    ["bar4"] = true,
+                },
+                ["player"] = true,
+                ["boss"] = true,
+                ["vehicle"] = true,
+                ["focus"] = true,
+                ["target"] = true,
+                ["arena"] = true,
+                ["pet"] = true,
+                ["pettarget"] = true,
+            },
+        },
+        ["minimap"] = {
+            ["mapicons"] = {
+                ["barenable"] = true,
+            },
+        },
+        ["install_complete"] = "3.22",
+        ["skins"] = {
+            ["objectiveTracker"] = {
+                ["class"] = true,
+                ["scenarioBG"] = true,
+                ["texture"] = "Runes",
+            },
+            ["merchant"] = {
+                ["enable"] = true,
+                ["subpages"] = 5,
+                ["style"] = "List",
+            },
+        },
+        ["vehicle"] = {
+            ["enable"] = true,
+        },
+        ["professions"] = {
+            ["deconButton"] = {
+                ["enable"] = false,
+            },
+        },
+        ["uibuttons"] = {
+            ["style"] = "dropdown",
+        },
+    },
+    ["actionbar"] = {
+        ["masque"] = {
+            ["stanceBar"] = true,
+            ["petBar"] = true,
+            ["actionbars"] = true,
+        },
+    },
+    ["nameplates"] = {
+        ["enable"] = false,
+    },
+    ["auras"] = {
+        ["enable"] = false,
+    },
+}::private
