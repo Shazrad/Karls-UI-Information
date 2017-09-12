@@ -1,8 +1,9 @@
 {
     ["skins"] = {
         ["blizzard"] = {
-            ["alertframes"] = true,
             ["questChoice"] = true,
+            ["alertframes"] = true,
+            ["petbattleui"] = false,
         },
     },
     ["sle"] = {
@@ -24,10 +25,10 @@
                     ["microbarbuttons"] = true,
                     ["bar6buttons"] = true,
                     ["stancebar"] = true,
-                    ["stancebarbuttons"] = true,
+                    ["bar4buttons"] = true,
                     ["bar1"] = true,
                     ["petbar"] = true,
-                    ["bar4buttons"] = true,
+                    ["stancebarbuttons"] = true,
                     ["bar4"] = true,
                 },
                 ["player"] = true,
@@ -40,19 +41,12 @@
             },
             ["screensaver"] = true,
         },
+        ["skins"] = {
+            ["petbattles"] = {
+                ["enable"] = false,
+            },
+        },
         ["install_complete"] = "3.27",
-    },
-    ["general"] = {
-        ["chatBubbleFontSize"] = 12,
-        ["normTex"] = "BuiFlat",
-        ["dmgfont"] = "Expressway",
-        ["chatBubbleFont"] = "Expressway",
-        ["namefont"] = "Expressway",
-        ["glossTex"] = "BuiFlat",
-    },
-    ["benikui"] = {
-        ["install_complete"] = "3.29",
-        ["expressway"] = true,
     },
     ["dashboards"] = {
         ["tokens"] = {
@@ -91,8 +85,23 @@
             },
         },
     },
+    ["benikui"] = {
+        ["install_complete"] = "3.29",
+        ["expressway"] = true,
+    },
+    ["bags"] = {
+        ["enable"] = false,
+    },
     ["auras"] = {
         ["enable"] = false,
+    },
+    ["general"] = {
+        ["chatBubbleFontSize"] = 12,
+        ["normTex"] = "BuiFlat",
+        ["dmgfont"] = "Expressway",
+        ["chatBubbleFont"] = "Expressway",
+        ["namefont"] = "Expressway",
+        ["glossTex"] = "BuiFlat",
     },
     ["theme"] = "class",
     ["install_complete"] = "10.63",
