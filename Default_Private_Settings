@@ -1,7 +1,27 @@
 {
+    ["general"] = {
+        ["chatBubbleFontSize"] = 12,
+        ["normTex"] = "MerathilisGloss",
+        ["dmgfont"] = "Expressway",
+        ["chatBubbleFont"] = "Expressway",
+        ["namefont"] = "Expressway",
+        ["glossTex"] = "MerathilisUI1",
+    },
+    ["bags"] = {
+        ["enable"] = false,
+    },
+    ["skins"] = {
+        ["blizzard"] = {
+            ["questChoice"] = true,
+            ["alertframes"] = true,
+            ["petbattleui"] = false,
+        },
+    },
+    ["theme"] = "class",
+    ["install_complete"] = "10.65",
     ["benikui"] = {
-        ["install_complete"] = "3.29",
         ["expressway"] = true,
+        ["install_complete"] = "3.29",
     },
     ["sle"] = {
         ["module"] = {
@@ -17,53 +37,48 @@
                     ["microbar"] = true,
                     ["bar1buttons"] = true,
                     ["bar2"] = true,
-                    ["bar5buttons"] = true,
+                    ["bar1"] = true,
                     ["bar5"] = true,
                     ["petbarbuttons"] = true,
                     ["microbarbuttons"] = true,
                     ["bar6buttons"] = true,
                     ["stancebar"] = true,
                     ["stancebarbuttons"] = true,
-                    ["bar1"] = true,
+                    ["bar5buttons"] = true,
                     ["petbar"] = true,
                     ["bar4buttons"] = true,
                     ["bar4"] = true,
                 },
                 ["player"] = true,
-                ["pet"] = true,
+                ["boss"] = true,
+                ["vehicle"] = true,
                 ["focus"] = true,
                 ["target"] = true,
                 ["arena"] = true,
-                ["boss"] = true,
+                ["pet"] = true,
                 ["pettarget"] = true,
             },
         },
+        ["minimap"] = {
+            ["mapicons"] = {
+                ["enable"] = true,
+                ["barenable"] = true,
+            },
+        },
         ["skins"] = {
+            ["merchant"] = {
+                ["enable"] = true,
+            },
+            ["objectiveTracker"] = {
+                ["texture"] = "MerathilisGloss",
+            },
             ["petbattles"] = {
                 ["enable"] = false,
             },
         },
-        ["install_complete"] = "3.27",
+        ["install_complete"] = "3.28",
     },
-    ["general"] = {
-        ["chatBubbleFontSize"] = 12,
-        ["normTex"] = "BuiFlat",
-        ["dmgfont"] = "Expressway",
-        ["chatBubbleFont"] = "Expressway",
-        ["namefont"] = "Expressway",
-        ["glossTex"] = "BuiFlat",
-    },
-    ["skins"] = {
-        ["blizzard"] = {
-            ["questChoice"] = true,
-            ["alertframes"] = true,
-            ["petbattleui"] = false,
-        },
-    },
-    ["bags"] = {
-        ["enable"] = false,
-    },
-    ["auras"] = {
+    ["nameplates"] = {
         ["enable"] = false,
     },
     ["dashboards"] = {
@@ -103,6 +118,4 @@
             },
         },
     },
-    ["theme"] = "class",
-    ["install_complete"] = "10.63",
 }::private
