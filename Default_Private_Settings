@@ -1,13 +1,16 @@
 {
     ["general"] = {
         ["chatBubbleFontSize"] = 12,
-        ["normTex"] = "MerathilisGloss",
-        ["dmgfont"] = "Expressway",
+        ["normTex"] = "MerathilisMelli",
+        ["glossTex"] = "BuiFlat",
         ["chatBubbleFont"] = "Expressway",
         ["namefont"] = "Expressway",
-        ["glossTex"] = "MerathilisUI1",
+        ["dmgfont"] = "Expressway",
     },
     ["bags"] = {
+        ["enable"] = false,
+    },
+    ["auras"] = {
         ["enable"] = false,
     },
     ["skins"] = {
@@ -18,14 +21,9 @@
         },
     },
     ["theme"] = "class",
-    ["install_complete"] = "10.65",
-    ["benikui"] = {
-        ["expressway"] = true,
-        ["install_complete"] = "3.29",
-    },
+    ["install_complete"] = "10.67",
     ["sle"] = {
         ["module"] = {
-            ["screensaver"] = true,
             ["shadows"] = {
                 ["focustarget"] = true,
                 ["targettarget"] = true,
@@ -68,15 +66,17 @@
         ["skins"] = {
             ["merchant"] = {
                 ["enable"] = true,
-            },
-            ["objectiveTracker"] = {
-                ["texture"] = "MerathilisGloss",
+                ["style"] = "List",
             },
             ["petbattles"] = {
                 ["enable"] = false,
             },
         },
         ["install_complete"] = "3.28",
+    },
+    ["benikui"] = {
+        ["install_complete"] = "3.30",
+        ["expressway"] = true,
     },
     ["nameplates"] = {
         ["enable"] = false,
@@ -91,8 +91,8 @@
                 [1173] = false,
                 [789] = false,
                 [395] = false,
-                [944] = false,
                 [61] = false,
+                [944] = false,
                 [776] = false,
                 [401] = false,
                 [81] = false,
